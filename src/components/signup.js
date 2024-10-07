@@ -49,7 +49,7 @@ const RegisterForm = () => {
             formDataToSend.append('phoneNumber', phoneNumber);
           
 
-            const response = await axios.post('https://server-dash-9zfn-ksu18ujlt-saurav-sharmas-projects-eec9f1c9.vercel.app/api/v1/users/register', formDataToSend, {
+            const response = await axios.post('https://server-dash-9zfn.vercel.app/api/v1/users/register', formDataToSend, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
