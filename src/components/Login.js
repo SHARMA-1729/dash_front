@@ -35,7 +35,7 @@ const LoginForm = () => {
         setSuccess(null);
 
         try {
-            const response = await axios.post('https://server-dash-9zfn-ksu18ujlt-saurav-sharmas-projects-eec9f1c9.vercel.app/api/v1/users/login', formData, {
+            const response = await axios.post('https://server-dash-9zfn.vercel.app/api/v1/users/login', formData, {
                 withCredentials: true, // to include cookies
             });
 
