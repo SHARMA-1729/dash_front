@@ -47,7 +47,7 @@ const Header = () => {
   />
 </Link>
 <div  >
-        {itemCount > 0 && (
+        {(
           <button   onClick={() => navigate('/wallet')} className="cart">Wallet</button> // Display dynamic count
           
         )}
