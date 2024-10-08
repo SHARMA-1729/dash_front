@@ -47,10 +47,10 @@ const Header = () => {
   />
 </Link>
 <div  >
-        {(
-          <button   onClick={() => navigate('/wallet')} className="cart">Wallet</button> // Display dynamic count
+       
+          <button   onClick={() => navigate('/wallet')} className="cart">Wallet</button> 
           
-        )}
+      
        
         </div>
         <button  onClick={logout} className="signup-button">LogOut</button>
