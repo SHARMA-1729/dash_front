@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/logyy.png';
 
 const Header = () => {
-  const cartItems = useSelector((state) => state.food.cart);
-  const itemCount = cartItems.length;
+ 
+ 
   const dispatch=useDispatch();
   const logout = (e) => {
     e.preventDefault();
@@ -47,10 +47,10 @@ const Header = () => {
   />
 </Link>
 <div  >
-       
+        
           <button   onClick={() => navigate('/wallet')} className="cart">Wallet</button> 
           
-      
+        
        
         </div>
         <button  onClick={logout} className="signup-button">LogOut</button>
