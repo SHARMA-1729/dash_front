@@ -2,7 +2,7 @@ import React from 'react';
 import './account.css';
 import { useSelector } from 'react-redux';
 import Header from './header1.js';
-import { Link } from 'react-router-dom';
+
 import Dashboard from './Dashboard.js';
 import LineChartComponent from './LineChartComponent';
 export default function EditButton() {
@@ -19,19 +19,7 @@ export default function EditButton() {
           <img src={data.user.avatar} alt="User Avatar" className="avatar" />
           <h3 className="user-name">Hello!! {data.user.fullName}</h3>
         </div>
-        <nav className="menu">
-          <ul>
-          <li>Release Music</li>
-            <li>Caller Tune</li>
-            <li>Service Request</li>
-            <li>Bajao Radio Request</li>
-            <li>Labels</li>
-            <li>My Artist</li>
-            <Link to="/update" >
-            <li>Update Account</li>
-            </Link>
-          </ul>
-        </nav>
+       
       </aside>
 
       <main className="profile-details">
