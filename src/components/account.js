@@ -20,17 +20,17 @@ export default function EditButton() {
           <h3 className="user-name">Hello!! {data.user.fullName}</h3>
         </div>
         <nav className="menu">
-          <ul>
-          <li>Release Music</li>
-            <li>Caller Tune</li>
-            <li>Service Request</li>
-            <li>Bajao Radio Request</li>
-            <li>Labels</li>
-            <li>My Artist</li>
-            <Link to="/update" >
-            <li>Update Account</li>
-            </Link>
-          </ul>
+          // <ul>
+          // <li>Release Music</li>
+          //   <li>Caller Tune</li>
+          //   <li>Service Request</li>
+          //   <li>Bajao Radio Request</li>
+          //   <li>Labels</li>
+          //   <li>My Artist</li>
+          //   <Link to="/update" >
+          //   <li>Update Account</li>
+          //   </Link>
+          // </ul>
         </nav>
       </aside>
 
