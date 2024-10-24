@@ -22,17 +22,17 @@ import Dash from './Dashboard.js'
 const Body = () => {
 
     const appRouter=createBrowserRouter([{
-        path:"/login",
-        element:<Login/>,
-    },
-    {
-        path:"/",
-        element:<Home/>
-    },
-    {
-        path:"/register",
-        element:<Register/>
-    },
+    //     path:"/login",
+    //     element:<Login/>,
+    // },
+    // {
+    //     path:"/",
+    //     element:<Home/>
+    // },
+    // {
+    //     path:"/register",
+    //     element:<Register/>
+    // },
     {
         path:"/browse",
         element:<Browse/>
