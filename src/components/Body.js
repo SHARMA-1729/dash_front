@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './Login';
+// import Login from './Login';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './Home.js';
+// import Home from './Home.js';
 // import "react-toastify/dist/ReactToastify.css";
 import Wallet from './wallet.js'
-import Register from './signup.js';
+// import Register from './signup.js';
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from 'react-router-dom';
 import Browse from './browse.js';
